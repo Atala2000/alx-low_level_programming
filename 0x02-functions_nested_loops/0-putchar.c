@@ -15,14 +15,14 @@ int main(void)
 	int r = 97;
 	int t = 114;
 
-	putchar(s);
-	putchar(p);
-	putchar(u);
-	putchar(c);
-	putchar(h);
-	putchar(q);
-	putchar(r);
-	putchar(t);
-	putchar('\n');
+	_putchar(s);
+	_putchar(p);
+	_putchar(u);
+	_putchar(c);
+	_putchar(h);
+	_putchar(q);
+	_putchar(r);
+	_putchar(t);
+	_putchar('\n');
 	return (0);
 }
