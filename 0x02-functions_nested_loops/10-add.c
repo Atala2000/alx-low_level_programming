@@ -1,4 +1,4 @@
-include"main.h"
+#include"main.h"
 /**
  * add - function that adds two intergers
  * @n:parameters
