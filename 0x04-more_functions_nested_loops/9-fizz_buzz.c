@@ -1,32 +1,32 @@
 #include <stdio.h>
 /**
 * main - fizz_buzz function.
-* @a , @j: integers.
+* @i , @j: integers.
 * Return: 0.
 */
 int main(void)
 {
-int a;
+int i;
 
-for (a = 1; a <= 100; ++a)
+for (i = 1; i <= 100; ++i)
 {
-if (a! = 100)
+if (i != 100)
 {
-if (a % 3 == 0 && a % 5 == 0)
+if (i % 3 == 0 && i % 5 == 0)
 {
 printf("FizzBuzz ");
 }
-else if (a % 3 == 0)
+else if (i % 3 == 0)
 {
 printf("Fizz ");
 }
-else if (a % 5 == 0)
+else if (i % 5 == 0)
 {
 printf("Buzz ");
 }
 else
 {
-printf("%d ", a);
+printf("%d ", i);
 }
 }
 else
@@ -37,4 +37,3 @@ printf("Buzz");
 printf("\n");
 return (0);
 }
-
