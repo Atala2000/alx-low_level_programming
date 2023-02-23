@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - fizz_buzz function.
-* @i , @j: integers.
+* @a , @j: integers.
 * Return: 0.
 */
 int main(void)
