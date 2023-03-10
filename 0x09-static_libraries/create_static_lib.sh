@@ -1,1 +1,2 @@
-ar cr liball.a *.c
+gcc -c *.c
+ar cr *.o
