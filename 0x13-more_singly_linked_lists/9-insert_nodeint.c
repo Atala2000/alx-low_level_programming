@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
  *insert_nodeint_at_index - new node insert
