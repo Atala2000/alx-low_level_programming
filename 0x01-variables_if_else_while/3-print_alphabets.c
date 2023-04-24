@@ -2,13 +2,18 @@
 #include <stdio.h>
 /**
  * main - main section of code
- * Return: 0 
+ * Return: 0
  **/
-int main()
+int main(void)
 {
 	int j;
 
-	for (j = 'A'; j <= 'Z'; j++)
+	for (j = 'a'; j <= 'z'; j++)
+	{
+		putchar(j);
+	}
+
+		for (j = 'A'; j <= 'Z'; j++)
 	{
 		putchar(j);
 	}
