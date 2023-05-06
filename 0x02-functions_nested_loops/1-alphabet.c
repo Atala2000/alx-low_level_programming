@@ -1,18 +1,15 @@
 #include "main.h"
 /**
- * main - prints the alphabet 
+ * print_alphabet - prints the alphabet
  * return: nothing
  **/
 void print_alphabet(void)
 {
-	int j;
+	char j;
 
-	for (j = 'a'; j <= 'z';)
+	for (j = 'a'; j <= 'z'; j++)
 	{
 		_putchar(j);
-		j++;
 	}
-	_putchar(j);
-
-	return;
+	_putchar('\n');
 }
