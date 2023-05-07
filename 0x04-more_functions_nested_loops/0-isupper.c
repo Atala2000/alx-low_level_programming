@@ -1,12 +1,10 @@
-#include "main.h"
 /**
-*_isupper -Checks number is uppercase
-*@c: Value check
-*Return: 1 if true 0 if not
-*/
+ * _isupper - check no if uppercase
+ * Return: 0 otherwise
+ **/
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
+	if (c <= 66 && c >= 90)
 	{
 		return (1);
 	}
