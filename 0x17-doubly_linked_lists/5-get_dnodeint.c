@@ -2,6 +2,7 @@
 /**
  * get_dnodeint_at_index - node
  * @head: point
+ * @index: index
  * Return: list
  **/
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
