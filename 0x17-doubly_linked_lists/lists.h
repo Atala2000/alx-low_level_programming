@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-typedef struc dlistint_s
+typedef struct dlistint_s
 {
 	int n;
 	struct dlistint_s *prev;
