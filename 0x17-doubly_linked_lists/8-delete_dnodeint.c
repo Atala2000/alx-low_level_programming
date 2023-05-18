@@ -5,7 +5,7 @@
  * @index: index
  * Return: 1
  **/
-int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *node;
 	unsigned int count;
@@ -46,5 +46,5 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 		node->next = NULL;
 		return (1);
 	}
-	return (-1)
+	return (-1);
 }

@@ -1,4 +1,4 @@
-#inlcude "lists.h"
+#include "lists.h"
 /**
  * dlistint_len - number of nodes in list
  * @h: Pointer
