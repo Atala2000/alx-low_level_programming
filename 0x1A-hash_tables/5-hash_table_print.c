@@ -11,23 +11,23 @@ hash_node_t *node;
 short int comma = 0;
 
 if (ht == NULL)
-        return;
+return;
 
 putchar('{');
 for (i = 0; i < ht->size; i++)
 {
-        node = ht->array[i];
-        while (node != NULL)
-        {
-                if (comma)
-                        printf(", ");
+node = ht->array[i];
+while (node != NULL)
+{
+if (comma)
+printf(", ");
 
-                printf("'%s': '%s'", node->key, node->value);
-                node = node->next;
+printf("'%s': '%s'", node->key, node->value);
+node = node->next;
 
-                if (comma == 0)
-                        comma = 1;
-        }
+if (comma == 0)
+comma = 1;
+}
 }
 printf("}\n");
 }

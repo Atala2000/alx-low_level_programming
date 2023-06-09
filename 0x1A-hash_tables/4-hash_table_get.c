@@ -12,17 +12,17 @@ hash_node_t *node;
 unsigned long int index;
 
 if (ht == NULL)
-        return (NULL);
+return (NULL);
 
 index = key_index((const unsigned char *) key, ht->size);
 node = ht->array[index];
 
 while (node != NULL)
 {
-        if (strcmp(node->key, key) == 0)
-                return (node->value);
+if (strcmp(node->key, key) == 0)
+return (node->value);
 
-        node = node->next;
+node = node->next;
 }
 return (NULL);
 }
